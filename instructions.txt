@@ -15,7 +15,7 @@ Changing background color
 
 If you prefer the background color of Git Bash to be something other than black, you can change it in the "Defaults" menu under the "Colors" tab. If you like the background color as-is, you don't need to make any changes.
 
-Downloading necessary files
+Download necessary files
 
 Save this file in your home directory with the name git-completion.bash.
 Save this file in your home directory with the name git-prompt.sh.
@@ -29,7 +29,7 @@ git config --global push.default upstream
 git config --global merge.conflictstyle diff3
 Make sure you can start your editor from Git Bash
 
-If you use Sublime, you can do this by adding the following line to your .bash_profile:
+If you use Sublime (modify the script for the version you are using), you can do this by adding the following line to your .bash_profile:
 
 alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
 Restart Git Bash
@@ -37,7 +37,7 @@ Restart Git Bash
 You'll need to close and re-open Git Bash before all your changes take effect.
 
 set up workspace on Mac
-Downloading necessary files
+Download necessary files
 
 Save this file in your home directory with the name git-completion.bash.
 Save this file in your home directory with the name git-prompt.sh.
